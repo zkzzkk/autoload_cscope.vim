@@ -171,6 +171,8 @@ function s:Cycle_csdb()
     endif
 endfunc
 
+call <SID>Cycle_csdb()
+
 " auto toggle the menu
 augroup autoload_cscope
  au!
